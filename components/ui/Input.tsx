@@ -20,7 +20,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
         <input
           ref={ref}
           className={clsx(
-            "h-12 w-full rounded-xl border border-slate-300 px-4 outline-none transition",
+            "h-12 w-full rounded-xl border border-slate-300 px-4 outline-none transition text-gray-900",
             "focus:border-amber-500",
             error && "border-red-500",
             className
