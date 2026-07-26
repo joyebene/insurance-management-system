@@ -65,19 +65,19 @@ export default function Hero() {
           data-aos-duration="1000"
           className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
         >
-          <Link
-            href="#contact"
-            className="btn-primary inline-flex items-center justify-center gap-2 text-lg"
-          >
-            Get Free Quote
-            <FaArrowRight className="text-sm" />
-          </Link>
-          <Link
-            href="#features"
-            className="inline-flex items-center justify-center px-6 py-3 border-2 border-white/30 text-white font-semibold rounded-full hover:bg-white/10 transition-all duration-300"
-          >
-            Explore Plans
-          </Link>
+           <Link
+    href="/register"
+    className="inline-flex items-center justify-center gap-2 rounded-full bg-amber-500 px-7 py-2 md:py-3 text-lg font-semibold text-white transition-all duration-300 hover:bg-amber-600 hover:scale-105"
+  >
+    Create Account
+    <FaArrowRight className="text-sm" />
+  </Link>
+           <Link
+    href="/login"
+    className="inline-flex items-center justify-center rounded-full border-2 border-white px-7 py-2 md:py-3 text-lg font-semibold text-white transition-all duration-300 hover:bg-white hover:text-slate-900"
+  >
+    Login
+  </Link>
         </div>
 
         {/* Insurance Type Icons */}

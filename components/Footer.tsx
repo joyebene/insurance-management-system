@@ -16,8 +16,7 @@ export default function Footer() {
                 <FaShieldAlt className="text-gray-900 text-xl" />
               </div>
               <span className="text-white font-semibold text-lg" style={{ fontFamily: 'var(--font-playfair)' }}>
-                All Round Insurance
-              </span>
+              Insurance Management System              </span>
             </div>
             <p className="mb-6 max-w-md">
               Comprehensive insurance solutions tailored to protect what matters most. Trusted by thousands of families and businesses nationwide.
@@ -66,7 +65,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm">
-              © {currentYear} All Round Insurance & Co. All rights reserved.
+              © {currentYear} Insurance Management System & Co. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
               <a href="#" className="hover:text-amber-400 transition-colors">Privacy Policy</a>
