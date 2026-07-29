@@ -27,7 +27,7 @@ const PasswordInput = forwardRef<HTMLInputElement, PasswordInputProps>(
             type={showPassword ? "text" : "password"}
             className={clsx(
               "h-12 w-full rounded-xl border border-slate-300 px-4 pr-12 outline-none transition",
-              "focus:border-amber-500",
+              "focus:border-amber-500 text-gray-300",
               error && "border-red-500",
               className
             )}
